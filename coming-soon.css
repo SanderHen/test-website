@@ -1,0 +1,32 @@
+html body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    height: 50%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+h1 {
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    border-bottom: solid 1px white;
+}
